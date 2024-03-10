@@ -54,7 +54,7 @@ public class GameBoard extends JPanel implements ActionListener ,KeyListener {
         food.Draw(g);
         //snake.MoveBody();
     }
-    DirectionType moveHead(@org.jetbrains.annotations.NotNull KeyEvent e)
+    DirectionType moveHead(KeyEvent e)
     {
         switch (e.getKeyCode())
         {
